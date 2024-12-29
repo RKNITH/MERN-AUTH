@@ -1,0 +1,122 @@
+.auth-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: transparent;
+}
+
+.auth-container {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.auth-toggle {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.toggle-btn {
+  width: 50%;
+  padding: 10px 0;
+  font-size: 1rem;
+  border: none;
+  background: #ddd;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.toggle-btn.active {
+  background: #0cbb69;
+  color: white;
+}
+
+.auth-form h2 {
+  margin-bottom: 20px;
+}
+
+.auth-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.auth-form div {
+  position: relative;
+}
+.auth-form div span {
+  position: absolute;
+  width: 50px;
+  height: 37px;
+  top: 0;
+  left: 0;
+  border-right: 1px solid gray;
+  color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.auth-form div input[type="number"] {
+  padding-left: 55px;
+}
+
+.auth-form button {
+  width: 100%;
+  padding: 12px;
+  background: #0cbb69;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.auth-form button:hover {
+  background: #068047;
+}
+
+.verification-method p {
+  font-weight: 500;
+  color: gray;
+  text-align: start;
+}
+.verification-method .wrapper {
+  display: flex;
+  gap: 50px;
+}
+.verification-method label {
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+  cursor: pointer;
+  gap: 10px;
+  margin: 20px 0;
+}
+.verification-method label input {
+  margin-bottom: 0;
+}
+.forgot-password {
+  text-align: end;
+  margin: 20px 0;
+  font-size: 16px;
+  color: #0cbb69;
+}
+
+.forgot-password a {
+  color: gray;
+  text-decoration: underline;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.forgot-password a:hover {
+  color: #068047;
+}

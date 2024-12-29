@@ -1,0 +1,82 @@
+.instructor-page {
+  background: rgba(128, 128, 128, 0.11);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.instructor-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 800px;
+  background: #ffffff;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  overflow: hidden;
+  padding: 30px;
+  text-align: center;
+}
+
+.instructor-image img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid #0cbb69;
+  margin-bottom: 20px;
+}
+
+.instructor-info h1 {
+  font-size: 44px;
+  color: #333;
+  margin-bottom: 10px;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+.instructor-info h4 {
+  font-size: 32px;
+  color: #0cbb69;
+  margin-bottom: 20px;
+}
+
+.instructor-info p {
+  font-size: 20px;
+  color: gray;
+  line-height: 2;
+  margin-bottom: 20px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: white;
+  background: #0cbb69;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: transform 0.3s, background 0.3s;
+}
+
+.social-links a:hover {
+  background: #068047;
+  transform: translateY(-1px);
+}
+
+@media (max-width: 700px) {
+  .instructor-info h1 {
+    font-size: 36px;
+    font-weight: 700;
+  }
+
+  .instructor-info h4 {
+    font-size: 24px;
+    font-weight: 500;
+  }
+}
